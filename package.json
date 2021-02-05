@@ -1,0 +1,16 @@
+{
+  "name": "tdd-range",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node -r esm src/range-test.js",
+    "watch": "watch 'clear && yarn -s test | tap-nirvana' src"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "riteway": "^6.2.1",
+    "tap-nirvana": "^1.1.0",
+    "watch": "^1.0.2"
+  }
+}
